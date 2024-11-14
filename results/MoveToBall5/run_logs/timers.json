@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1731564947",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\miniconda3\\envs\\mlagent\\Scripts\\mlagents-learn ml-agents/config/MoveToBall.yaml --run-id=MoveToBall5",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.1+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1731565024"
+    },
+    "total": 76.56756119999773,
+    "count": 1,
+    "self": 0.011015500000212342,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10657749999518273,
+            "count": 1,
+            "self": 0.10657749999518273
+        },
+        "TrainerController.start_learning": {
+            "total": 76.44996820000233,
+            "count": 1,
+            "self": 0.0001300000076298602,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 76.44981469999766,
+                    "count": 1,
+                    "self": 76.44981469999766
+                },
+                "TrainerController._save_models": {
+                    "total": 2.3499997041653842e-05,
+                    "count": 1,
+                    "self": 2.3499997041653842e-05
+                }
+            }
+        }
+    }
+}
