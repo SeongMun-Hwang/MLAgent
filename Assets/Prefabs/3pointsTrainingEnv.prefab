@@ -785,6 +785,8 @@ MonoBehaviour:
   floorRenderer: {fileID: 4545694669706594256}
   winMaterial: {fileID: 2100000, guid: 64b5529f8a59db640bd1439a6d04e7fe, type: 2}
   loseMaterial: {fileID: 2100000, guid: 8e110e961ae3a8a409ca6c55700e551b, type: 2}
+  nextPoint: 0
+  interactionPoint: 0
 --- !u!114 &7154140886548118470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,7 +800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 7
+    VectorObservationSize: 10
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 2
